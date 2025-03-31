@@ -20,6 +20,6 @@ try:
                 time.sleep(0.1)
 
 except KeyboardInterrupt:
-        printf("Bye Bye ):")
+        print("Bye Bye ):")
 finally:
         GPIO.cleanup()
